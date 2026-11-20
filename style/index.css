@@ -54,3 +54,29 @@
       0 0 40px rgba(207, 224, 255, 0.7);
 }
 
+.subsolo {
+    background: linear-gradient(#0c0838, #0f0c28);
+}
+
+.passo .numero {
+    margin: 0;
+    font-family: 'alagard';
+    font-size: 110px;
+    line-height: 1;
+    color: #ffd36b;
+    text-shadow:
+      3px 3px 0 #b8323a,
+      6px 6px 0 #6b2a5e,
+      10px 10px 0 #0f0c28;
+    transition: 0.2s;
+}
+
+.passo:hover .numero {
+    color: #fff6eb;
+    text-shadow:
+      3px 3px 0 #b8323a,
+      6px 6px 0 #6b2a5e,
+      10px 10px 0 #0f0c28,
+      0 0 30px rgba(255, 211, 107, 0.6);
+}
+

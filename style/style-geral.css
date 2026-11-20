@@ -79,6 +79,75 @@ main {
     text-shadow: 2px 2px 0 #b8323a;
 }
 
+.secao {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 80px 40px;
+}
+
+.secao h2 {
+    font-family: '8bits';
+    font-size: 28px;
+    color: #FF9B42;
+    margin: 0 0 10px;
+}
+
+.secao-intro {
+    font-size: 18px;
+    color: #b9b3e0;
+    margin: 0 0 40px;
+}
+
+.titulo-centro {
+    text-align: center;
+}
+
+.secao .titulo-centro {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 48px;
+    color: #fff6eb;
+    text-shadow:
+      2px 2px 0 #ffd36b,
+      4px 4px 0 #b8323a,
+      6px 6px 0 #0f0c28;
+}
+
+.texto-centro {
+    text-align: center;
+}
+
+.passos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    margin-top: 20px;
+}
+
+.passo {
+    text-align: center;
+    transition: 0.2s;
+}
+
+.passo h3 {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 30px;
+    color: #cfe0ff;
+    margin: 20px 0 10px;
+}
+
+.passo p {
+    font-size: 17px;
+    line-height: 1.6;
+    color: #b9b3e0;
+    margin: 0;
+}
+
+.passo:hover {
+    transform: translateY(-6px);
+}
+
 .rodape {
     text-align: center;
     padding: 30px;
