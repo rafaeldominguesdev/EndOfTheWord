@@ -1,3 +1,4 @@
+/* aqui carega as fonte que baixei na pasta font */
 @font-face {
     font-family: '8bits';
     src: url(../font/8bit_wonder/8-BIT\ WONDER.TTF) format(opentype);
@@ -16,19 +17,23 @@ body {
     background-color: #0f0c28;
     color:#fff6eb;
     min-height: 100vh;
+    /* flex em coluna pro rodape ficar sempre no final da tela */
     display: flex;
     flex-direction: column;
 }
 
+/* main estica e empura o rodape pra baixo */
 main {
     flex: 1;
 }
 
 .navbar {
+    /* sticky deixa a navbar grudada em cima quando desce a pagina */
     position: sticky;
     top: 0;
     z-index: 10;
     display: flex;
+    /* space-between joga a logo pra esquerda e o menu pra direita */
     justify-content: space-between;
     align-items: center;
     padding: 8px 40px;
@@ -73,6 +78,7 @@ main {
     transform: translateY(-2px);
 }
 
+/* ativo e o botao da pagina que ta aberta */
 .caixa-menu.ativo {
     background-color: #3b3570;
     color: #ffd36b;
@@ -81,6 +87,7 @@ main {
 
 .secao {
     max-width: 1100px;
+    /* margin auto centraliza */
     margin: 0 auto;
     padding: 80px 40px;
 }
@@ -102,6 +109,7 @@ main {
     text-align: center;
 }
 
+/* cada linha do text-shadow e uma sombra diferente isso da o efeito 3d */
 .secao .titulo-centro {
     font-family: 'alagard';
     font-weight: normal;
@@ -119,6 +127,7 @@ main {
 
 .passos {
     display: grid;
+    /* repeat 3 1fr e 3 colunas do mesmo tamanho */
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
     margin-top: 20px;

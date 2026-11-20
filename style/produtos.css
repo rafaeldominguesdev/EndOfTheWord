@@ -5,6 +5,7 @@
 }
 
 .card {
+    /* relative aqui pro selo absolute ficar preso dentro do card */
     position: relative;
     background-color: #1a1440;
     border: 3px solid #3b3570;
@@ -20,6 +21,7 @@
 .card img {
     width: 100%;
     height: 200px;
+    /* contain mostra a imagem enteira sem corta */
     object-fit: contain;
     background-color: #241c52;
     padding: 10px;
@@ -45,6 +47,7 @@
 
 .card .selo {
     margin: 0;
+    /* absolute coloca o selo no canto */
     position: absolute;
     top: 26px;
     right: 26px;

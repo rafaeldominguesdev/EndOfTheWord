@@ -1,6 +1,8 @@
 .capa {
+    /* calc pega a tela toda menos o tamanho da navbar */
     min-height: calc(100vh - 102px);
     background-image: url(../img/fundo-cemiterio.png);
+    /* cover estica a imagem pra cobrir tudo */
     background-size: cover;
     background-position: center bottom;
     display: flex;
@@ -35,6 +37,7 @@
     font-size: 96px;
     line-height: 1.05;
     margin-top: 10px;
+    /* uppercase deixa em maiusculo sem precisar escreve assim no html */
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #ffd36b;
@@ -54,6 +57,7 @@
       0 0 40px rgba(207, 224, 255, 0.7);
 }
 
+/* degrade da cor do final da imagem ate a cor do fundo parece que ta indo pra baixo da terra */
 .subsolo {
     background: linear-gradient(#0c0838, #0f0c28);
 }
@@ -71,6 +75,7 @@
     transition: 0.2s;
 }
 
+/* quando passa o mouse no passo o numero muda */
 .passo:hover .numero {
     color: #fff6eb;
     text-shadow:

@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 8px;
     max-width: 500px;
+    /* margin auto centraliza o formulario */
     margin: 0 auto;
 }
 
@@ -21,6 +22,7 @@
     border: 3px solid #3b3570;
 }
 
+/* focus e quando clica no campo pra escreve */
 .formulario input:focus,
 .formulario textarea:focus {
     outline: none;
@@ -32,6 +34,7 @@
     font-family: '8bits';
     font-size: 18px;
     color: #fff6eb;
+    /* tira o visual padrao do botao */
     background: none;
     border: none;
     padding: 8px 0;
