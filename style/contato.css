@@ -22,13 +22,6 @@
     border: 3px solid #3b3570;
 }
 
-/* focus e quando clica no campo pra escreve */
-.formulario input:focus,
-.formulario textarea:focus {
-    outline: none;
-    border-color: #ffd36b;
-}
-
 /* btn btn-warning e btn-lg sao do bootstrap aqui so muda a fonte e o espaco */
 .formulario .btn {
     margin-top: 20px;

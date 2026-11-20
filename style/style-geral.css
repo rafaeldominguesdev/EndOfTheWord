@@ -16,6 +16,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #0f0c28;
     color:#fff6eb;
+    /* o bootstrap do contato muda o line-height entao deixei fixo pra navbar ficar igual em todas */
+    line-height: normal;
     min-height: 100vh;
     /* flex em coluna pro rodape ficar sempre no final da tela */
     display: flex;
@@ -28,10 +30,6 @@ main {
 }
 
 .navbar {
-    /* sticky deixa a navbar grudada em cima quando desce a pagina */
-    position: sticky;
-    top: 0;
-    z-index: 10;
     display: flex;
     /* space-between joga a logo pra esquerda e o menu pra direita */
     justify-content: space-between;
@@ -135,7 +133,6 @@ main {
 
 .passo {
     text-align: center;
-    transition: 0.2s;
 }
 
 .passo h3 {
@@ -153,17 +150,113 @@ main {
     margin: 0;
 }
 
-.passo:hover {
-    transform: translateY(-6px);
-}
-
 .rodape {
     text-align: center;
-    padding: 30px;
-    background-color: #17123a;
+    padding: 40px;
+    /* mesma cor do fundo da pagina pro rodape nao ficar diferente */
+    background-color: #0f0c28;
     font-family: 'alagard';
     font-size: 22px;
     letter-spacing: 1px;
     color: #fff6eb;
     text-shadow: 2px 2px 0 #b8323a;
+}
+
+.rodape p {
+    margin: 0;
+}
+
+.capa {
+    /* vh e o tamanho da tela 88vh e quase a tela toda */
+    min-height: 88vh;
+    background-image: url(../img/fundo-cemiterio.png);
+    /* cover estica a imagem pra cobrir tudo */
+    background-size: cover;
+    background-position: center bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.capa-texto {
+  text-align: center;
+    max-width: 640px;
+}
+
+.capa-texto h1 {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 1.2;
+    margin:0;
+    color: #cfe0ff;
+    text-shadow:
+      3px 3px 0 #4b5bd6,
+      6px 6px 0 #241c52,
+      9px 9px 0 #0f0c28,
+      0 0 30px rgba(207, 224, 255, 0.3);
+    transition: 0.2s;
+}
+
+.destaque {
+    display: block;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 1.05;
+    margin-top: 10px;
+    /* uppercase deixa em maiusculo sem precisar escreve assim no html */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #ffd36b;
+    text-shadow:
+      3px 3px 0 #b8323a,
+      6px 6px 0 #6b2a5e,
+      10px 10px 0 #0f0c28,
+      0 0 40px rgba(255, 211, 107, 0.35);
+}
+
+.capa-texto h1:hover {
+    color: #ffffff;
+    text-shadow:
+      3px 3px 0 #4b5bd6,
+      6px 6px 0 #241c52,
+      9px 9px 0 #0f0c28,
+      0 0 40px rgba(207, 224, 255, 0.7);
+}
+
+/* degrade da cor do final da imagem ate a cor do fundo parece que ta indo pra baixo da terra */
+.subsolo {
+    background: linear-gradient(#0c0838, #0f0c28);
+}
+
+.passo .numero {
+    margin: 0;
+    font-family: 'alagard';
+    font-size: 72px;
+    line-height: 1;
+    color: #ffd36b;
+    text-shadow: 3px 3px 0 #b8323a;
+}
+
+.chamada {
+    text-align: center;
+    padding: 20px 20px 100px;
+}
+
+.chamada h2 {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0 0 10px;
+    text-shadow:
+      2px 2px 0 #ffd36b,
+      4px 4px 0 #b8323a,
+      6px 6px 0 #0f0c28;
+}
+
+.chamada p {
+    font-size: 18px;
+    color: #b9b3e0;
+    margin: 0 0 30px;
 }
