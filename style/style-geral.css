@@ -64,6 +64,21 @@ main {
     transition: 0.15s;
 }
 
+.caixa-menu:hover {
+    background-color: #3b3570;
+    color: #ffd36b;
+    text-shadow:
+      2px 2px 0 #b8323a,
+      0 0 12px rgba(255, 211, 107, 0.6);
+    transform: translateY(-2px);
+}
+
+.caixa-menu.ativo {
+    background-color: #3b3570;
+    color: #ffd36b;
+    text-shadow: 2px 2px 0 #b8323a;
+}
+
 .rodape {
     text-align: center;
     padding: 30px;
