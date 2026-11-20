@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style/style.css">
-    <title>Cemiterio de Celulares</title>
+    <link rel="stylesheet" href="./style/style-geral.css">
+    <link rel="stylesheet" href="./style/index.css">
+    <title>Last Charge - Cemitério de Celulares</title>
 </head>
 <body>
-    <aside class="sidebar">
-        <div class="caixa-menu-titulo">Last Charge</div>
-        <a class="caixa-menu" href="#">Inicio</a>
-        <a class="caixa-menu" href="#">Produtos</a>
-        <a class="caixa-menu" href="#">Sobre</a>
-        <a class="caixa-menu" href="#">Contato</a>
-    </aside>
+    <header class="navbar">
+        <a href="index.html">
+            <img class="logo" src="img/logo-last-charge.png" alt="Logo Last Charge">
+        </a>
+        <nav class="menu">
+            <a class="caixa-menu ativo" href="index.html">Inicio</a>
+            <a class="caixa-menu" href="pages/produtos.html">Produtos</a>
+          <a class="caixa-menu" href="pages/sobre.html">Sobre</a>
+            <a class="caixa-menu" href="pages/contato.html">Contato</a>
+        </nav>
+    </header>
 
     <main>
-        <div class="conteiner">
-            <div id="background-foto"></div>
-        </div>
+        <section class="capa">
+            <div class="capa-texto">
+                <h1>Bem-vindo ao <strong class="destaque">reino dos celulares</strong></h1>
+            </div>
+        </section>
+
     </main>
-    
+
+    <footer class="rodape">
+        <p>Rafael Domingues - Cemitério de Celulares</p>
+    </footer>
 </body>
 </html>
