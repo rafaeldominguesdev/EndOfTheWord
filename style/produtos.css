@@ -1,3 +1,38 @@
+.capa-produtos {
+    min-height: 88vh;
+    /* o degrade em cima da imagem escurece embaixo pra emendar com os card */
+    background-image: linear-gradient(transparent 60%, #0f0c28), url(../img/fundo-produtos.png);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    /* flex em coluna com center deixa o texto no meio do arco escuro */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.capa-produtos h2 {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 56px;
+    color: #fff6eb;
+    margin: 0 0 15px;
+    text-shadow:
+      2px 2px 0 #ffd36b,
+      4px 4px 0 #b8323a,
+      7px 7px 0 #0f0c28;
+}
+
+.capa-produtos p {
+    font-size: 19px;
+    line-height: 1.5;
+    color: #cfe0ff;
+    max-width: 400px;
+    margin: 0;
+    text-shadow: 2px 2px 0 #0f0c28;
+}
+
 .grade-produtos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
