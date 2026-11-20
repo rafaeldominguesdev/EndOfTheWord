@@ -18,7 +18,7 @@ body {
     grid-template-areas:               /* o "mapa" da página */
         "sidebar grade"
         "sidebar footer";
-    background-image: url(../img/0c4ec1c9-4bf6-4088-af6f-19ac1e21b270.png);
+    background-image: url(../img/fundo-cemiterio.png);
 }
 
 /* cada parte vai pro seu lugar no mapa */
