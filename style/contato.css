@@ -29,24 +29,9 @@
     border-color: #ffd36b;
 }
 
-.botao {
+/* btn btn-warning e btn-lg sao do bootstrap aqui so muda a fonte e o espaco */
+.formulario .btn {
     margin-top: 20px;
     font-family: '8bits';
-    font-size: 18px;
-    color: #fff6eb;
-    /* tira o visual padrao do botao */
-    background: none;
-    border: none;
-    padding: 8px 0;
-    text-shadow: 3px 3px 0 #3b3570;
-    cursor: pointer;
-    transition: 0.15s;
-}
-
-.botao:hover{
-    color: #ffd36b;
-    text-shadow:
-      3px 3px 0 #b8323a,
-      0 0 14px rgba(255, 211, 107, 0.6);
-    transform: translateY(-3px);
+    font-size: 16px;
 }
