@@ -80,3 +80,24 @@
       0 0 30px rgba(255, 211, 107, 0.6);
 }
 
+.chamada {
+    text-align: center;
+    padding: 20px 20px 100px;
+}
+
+.chamada h2 {
+    font-family: 'alagard';
+    font-weight: normal;
+    font-size: 40px;
+    margin: 0 0 10px;
+    text-shadow:
+      2px 2px 0 #ffd36b,
+      4px 4px 0 #b8323a,
+      6px 6px 0 #0f0c28;
+}
+
+.chamada p {
+    font-size: 18px;
+    color: #b9b3e0;
+    margin: 0 0 30px;
+}
