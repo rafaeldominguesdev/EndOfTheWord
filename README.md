@@ -30,9 +30,9 @@
 
 ## referencias
 
-- https://cssgradient.io/
-- https://www.dafont.com/
-- https://getbootstrap.com/
-- https://developer.mozilla.org/pt-BR/
-- https://www.w3schools.com/
-- https://stackoverflow.com/
+- https://cssgradient.io/ site que gera degrade no css o site usa linear-gradient embaixo da capa
+- https://www.dafont.com/ de onde vem as fonte alagard e 8-bit wonder
+- https://getbootstrap.com/ documentaçao das classe btn btn-warning e btn-lg do botao envia
+- https://developer.mozilla.org/pt-BR/ explicaçao das tag e das propriedade do css
+- https://www.w3schools.com/ exemplos de flexbox e grid
+- https://stackoverflow.com/ site de duvida de programaçao
