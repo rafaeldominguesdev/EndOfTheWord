@@ -1,7 +1,5 @@
-
-
-.capa-contato{
-     min-height: 88vh;
+.capa-contato {
+    min-height: 88vh;
     /* o degrade em cima da imagem escurece embaixo pra emendar com os card */
     background-image: linear-gradient(transparent 60%, #0f0c28), url(../img/contato.png);
 }
@@ -16,7 +14,7 @@
 }
 
 .formulario label {
-    font-weight:bold;
+    font-weight: bold;
     margin-top: 10px;
 }
 
@@ -37,7 +35,7 @@
     font-size: 16px;
 }
 
-#button-enviar:hover{
+#button-enviar:hover {
     transition: 1s;
     letter-spacing: 3px;
     color: #7409F7;
@@ -52,16 +50,16 @@
     font-size: 20px;
 }
 
-.texto-fora{
+.texto-fora {
     font-family: 'alagard';
     font-size: 30px;
 }
 
-.texto-dentro{
+.texto-dentro {
     font-family: '8bits';
 }
 
-::placeholder{
+::placeholder {
     font-family: '8bits';
     font-size: 12px;
 }

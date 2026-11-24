@@ -15,7 +15,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-color: #0f0c28;
-    color:#fff6eb;
+    color: #fff6eb;
     /* o bootstrap do contato muda o line-height entao deixei fixo pra navbar ficar igual em todas */
     line-height: normal;
     min-height: 100vh;
@@ -34,9 +34,15 @@ main {
     /* space-between joga a logo pra esquerda e o menu pra direita */
     justify-content: space-between;
     align-items: center;
-    padding: 8px 40px;
-    background-color: #17123a;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.5);
+    height: 107px;
+    padding: 0 40px;
+    background: url(../img/navbar-image.png) center / cover;
+    box-shadow: 0 16px 48px rgba(37, 15, 15, 0.849);
+    /* relative faz a navbar virar um elemento posicionado sem isso o z-index nao vale de nada */
+    position: relative;
+    /* z-index e a ordem no eixo que aponta pra tela quem tem numero maior fica na frente */
+    /* aqui ele poe a navbar na frente da capa senao o fundo da capa pinta em cima e tapa a sombra */
+    z-index: 1;
 }
 
 .logo {
@@ -50,7 +56,7 @@ main {
 }
 
 
-.menu{
+.menu {
     display: flex;
     gap: 10px;
 }
@@ -70,15 +76,8 @@ main {
 .caixa-menu:hover {
     background-color: #3b3570;
     color: #ffd36b;
-    text-shadow:2px 2px 0 #b8323a, 0 0 12px rgba(255, 211, 107, 0.6);
+    text-shadow: 2px 2px 0 #b8323a, 0 0 12px rgba(255, 211, 107, 0.6);
     transform: translateY(-2px);
-}
-
-/* ativo e o botao da pagina que ta aberta */
-.caixa-menu.ativo {
-    background-color: #3b3570;
-    color: #ffd36b;
-    text-shadow: 2px 2px 0 #b8323a;
 }
 
 .secao {
@@ -175,7 +174,7 @@ main {
 }
 
 .capa-texto {
-  text-align: center;
+    text-align: center;
     max-width: 640px;
 }
 
@@ -184,9 +183,9 @@ main {
     font-weight: normal;
     font-size: 64px;
     line-height: 1.2;
-    margin:0;
+    margin: 0;
     color: #cfe0ff;
-    text-shadow: 3px 3px 0 #4b5bd6, 6px 6px 0 #241c52,9px 9px 0 #0f0c28, 0 0 30px rgba(207, 224, 255, 0.3);
+    text-shadow: 3px 3px 0 #4b5bd6, 6px 6px 0 #241c52, 9px 9px 0 #0f0c28, 0 0 30px rgba(207, 224, 255, 0.3);
     transition: 0.2s;
 }
 
@@ -205,7 +204,7 @@ main {
 
 .capa-texto h1:hover {
     color: #ffffff;
-    text-shadow: 3px 3px 0 #4b5bd6, 6px 0 #241c52, 9px 9px 0 #0f0c28,0 0 40px rgba(207, 224, 255, 0.7);
+    text-shadow: 3px 3px 0 #4b5bd6, 6px 0 #241c52, 9px 9px 0 #0f0c28, 0 0 40px rgba(207, 224, 255, 0.7);
 }
 
 /* degrade da cor do final da imagem ate a cor do fundo parece que ta indo pra baixo da terra */
