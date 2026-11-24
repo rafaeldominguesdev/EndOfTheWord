@@ -70,9 +70,7 @@ main {
 .caixa-menu:hover {
     background-color: #3b3570;
     color: #ffd36b;
-    text-shadow:
-      2px 2px 0 #b8323a,
-      0 0 12px rgba(255, 211, 107, 0.6);
+    text-shadow:2px 2px 0 #b8323a, 0 0 12px rgba(255, 211, 107, 0.6);
     transform: translateY(-2px);
 }
 
@@ -113,10 +111,7 @@ main {
     font-weight: normal;
     font-size: 48px;
     color: #fff6eb;
-    text-shadow:
-      2px 2px 0 #ffd36b,
-      4px 4px 0 #b8323a,
-      6px 6px 0 #0f0c28;
+    text-shadow: 2px 2px 0 #ffd36b, 4px 4px 0 #b8323a, 6px 6px 0 #0f0c28;
 }
 
 .texto-centro {
@@ -191,11 +186,7 @@ main {
     line-height: 1.2;
     margin:0;
     color: #cfe0ff;
-    text-shadow:
-      3px 3px 0 #4b5bd6,
-      6px 6px 0 #241c52,
-      9px 9px 0 #0f0c28,
-      0 0 30px rgba(207, 224, 255, 0.3);
+    text-shadow: 3px 3px 0 #4b5bd6, 6px 6px 0 #241c52,9px 9px 0 #0f0c28, 0 0 30px rgba(207, 224, 255, 0.3);
     transition: 0.2s;
 }
 
@@ -209,20 +200,12 @@ main {
     text-transform: uppercase;
     letter-spacing: 3px;
     color: #ffd36b;
-    text-shadow:
-      3px 3px 0 #b8323a,
-      6px 6px 0 #6b2a5e,
-      10px 10px 0 #0f0c28,
-      0 0 40px rgba(255, 211, 107, 0.35);
+    text-shadow: 3px 3px 0 #b8323a, 6px 6px 0 #6b2a5e, 10px 10px 0 #0f0c28, 0 0 40px rgba(255, 211, 107, 0.35);
 }
 
 .capa-texto h1:hover {
     color: #ffffff;
-    text-shadow:
-      3px 3px 0 #4b5bd6,
-      6px 6px 0 #241c52,
-      9px 9px 0 #0f0c28,
-      0 0 40px rgba(207, 224, 255, 0.7);
+    text-shadow: 3px 3px 0 #4b5bd6, 6px 0 #241c52, 9px 9px 0 #0f0c28,0 0 40px rgba(207, 224, 255, 0.7);
 }
 
 /* degrade da cor do final da imagem ate a cor do fundo parece que ta indo pra baixo da terra */
@@ -249,10 +232,7 @@ main {
     font-weight: normal;
     font-size: 40px;
     margin: 0 0 10px;
-    text-shadow:
-      2px 2px 0 #ffd36b,
-      4px 4px 0 #b8323a,
-      6px 6px 0 #0f0c28;
+    text-shadow: 2px 2px 0 #ffd36b, 4px 4px 0 #b8323a, 6px 6px 0 #0f0c28;
 }
 
 .chamada p {
