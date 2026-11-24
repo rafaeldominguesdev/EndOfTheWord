@@ -36,3 +36,32 @@
     font-family: '8bits';
     font-size: 16px;
 }
+
+#button-enviar:hover{
+    transition: 1s;
+    letter-spacing: 3px;
+    color: #7409F7;
+    text-shadow: 2px 2px 4px #0f0c28;
+    background-color: #020111;
+    border: #0A0046;
+
+}
+
+.secao-intro {
+    font-family: 'JetBrains' monospace;
+    font-size: 20px;
+}
+
+.texto-fora{
+    font-family: 'alagard';
+    font-size: 30px;
+}
+
+.texto-dentro{
+    font-family: '8bits';
+}
+
+::placeholder{
+    font-family: '8bits';
+    font-size: 12px;
+}
