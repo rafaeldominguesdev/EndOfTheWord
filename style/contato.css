@@ -1,3 +1,11 @@
+
+
+.capa-contato{
+     min-height: 88vh;
+    /* o degrade em cima da imagem escurece embaixo pra emendar com os card */
+    background-image: linear-gradient(transparent 60%, #0f0c28), url(../img/contato.png);
+}
+
 .formulario {
     display: flex;
     flex-direction: column;
